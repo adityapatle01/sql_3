@@ -91,6 +91,3 @@ INSERT INTO Student (student_id,student_name, email, age, dept_id, gender) VALUE
 
 
 
-
-
-
