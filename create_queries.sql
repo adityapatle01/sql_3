@@ -8,7 +8,7 @@ CREATE TABLE Department (
     established_year INT,CHECK(established_year BETWEEN 1950 AND 2025));
 
 -- Student Table
-CREATE TABLE Student (
+CREATE TABLE Student ()
     student_id SERIAL PRIMARY KEY,
     student_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,

@@ -88,6 +88,23 @@ delete from student where student_name='Aditya Patle';
 INSERT INTO Student (student_id,student_name, email, age, dept_id, gender) VALUES
 (2,'Aditya Patle','adityapatle@gmail.com',21,2,'M');
 
+select * from enrollment where grade ='A'
+union 
+select * from enrollment where grade='B'
+order by grade
+
+SELECT course_id
+FROM enrollment
+WHERE grade = 'A'
+INTERSECT
+SELECT course_id
+FROM exam
+WHERE exam_type = 'Final';
+
+select * from enrollment where grade ='A'
+except 
+select * from enrollment where grade='B'
+order by grade
 
 
 
