@@ -1,0 +1,11 @@
+"dept_id","dept_name","location","budget","head_of_dept","established_year"
+1,"Computer Science","Block A","500000","Dr. Meena",1999
+2,"Electronics","Block B","400000","Dr. Patil",2002
+3,"Department_3","Block C","488389","Dr. Head_3",1985
+4,"Department_4","Block D","456787","Dr. Head_4",1993
+5,"Department_5","Block E","434053","Dr. Head_5",1994
+6,"Department_6","Block F","346316","Dr. Head_6",2012
+7,"Department_7","Block G","307473","Dr. Head_7",2018
+8,"Department_8","Block H","771858","Dr. Head_8",1981
+9,"Department_9","Block I","291161","Dr. Head_9",2015
+10,"Department_10","Block J","642417","Dr. Head_10",1992
